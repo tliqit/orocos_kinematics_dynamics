@@ -30,7 +30,6 @@ script:
   # execute orocos_kdl tests
   - cd orocos_kdl/build
   - make check
-  - cd ../..
   # execute examples
-  - ./build/examples/trajectory_example
-  - ./build/examples/geometry
+  - ./examples/trajectory_example
+  - ./examples/geometry

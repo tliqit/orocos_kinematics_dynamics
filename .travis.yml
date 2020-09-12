@@ -33,5 +33,4 @@ script:
   - cd ../..
   # execute examples
   - ./examples/trajectory_example
-  - ./examples/chainiksolverpos_lma_demo
   - ./examples/geometry

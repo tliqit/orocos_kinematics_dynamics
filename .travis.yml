@@ -32,5 +32,5 @@ script:
   - make check
   - cd ../..
   # execute examples
-  - ./examples/trajectory_example
-  - ./examples/geometry
+  - ./build/examples/trajectory_example
+  - ./build/examples/geometry

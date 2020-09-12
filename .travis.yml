@@ -20,7 +20,7 @@ before_script:
   - cd orocos_kdl
   - mkdir build
   - cd build
-  - cmake -DENABLE_TESTS:BOOL=ON -DCMAKE_BUILD_TYPE=${OROCOS_KDL_BUILD_TYPE} -DENABLE_EXAMPLES ./..
+  - cmake -DENABLE_TESTS:BOOL=ON -DCMAKE_BUILD_TYPE=${OROCOS_KDL_BUILD_TYPE} -DENABLE_EXAMPLES:BOOL=ON ./..
   # compile and install orocos_kdl
   - make
   - sudo make install
